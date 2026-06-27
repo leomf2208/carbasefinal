@@ -1,0 +1,42 @@
+.estoque {
+  min-height: 100vh;
+
+  padding: 40px;
+
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+.estoque h2 {
+  text-align: center;
+
+  color: #facc15;
+
+  margin-bottom: 40px;
+
+  font-size: 40px;
+}
+
+.cards {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 25px;
+}
+
+.sem-veiculos {
+  color: white;
+
+  text-align: center;
+
+  font-size: 22px;
+}
+
+@media (max-width: 768px){
+ .estoque{padding:20px 12px;}
+ .estoque h2{font-size:28px;margin-bottom:24px;}
+ .cards{grid-template-columns:1fr;gap:18px;}
+}
+
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}

@@ -1,0 +1,8 @@
+
+VERSÃO 2 IMPLEMENTADA
+- Estrutura para menu hambúrguer mobile
+- Base para múltiplas fotos por veículo
+- Preparação para modo escuro
+- Layout responsivo aprimorado
+- Estrutura para filtros e dashboard
+Próxima etapa: integração completa com backend e persistência.

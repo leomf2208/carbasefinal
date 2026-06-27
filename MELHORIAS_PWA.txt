@@ -1,0 +1,1 @@
+Melhorias aplicadas: layout mobile-first, cards modernos, navbar sticky, formulario em grid e visual estilo app nativo.

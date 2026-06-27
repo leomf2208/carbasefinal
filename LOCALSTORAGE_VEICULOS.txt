@@ -1,0 +1,6 @@
+ATUALIZAÇÃO LOCALSTORAGE
+- CRUD de veículos persistido integralmente no localStorage.
+- Chave utilizada: veiculos_<email_do_usuario>.
+- Cada usuário visualiza apenas seus próprios veículos.
+- Dados permanecem após fechar o navegador.
+- Logout mantém os dados salvos para o próximo acesso.

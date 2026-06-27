@@ -1,0 +1,39 @@
+.home {
+  min-height: calc(100vh - 80px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7');
+
+  background-size: cover;
+  background-position: center;
+}
+
+.banner {
+  text-align: center;
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.banner h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+  color: #facc15;
+}
+
+.banner p {
+  font-size: 20px;
+  color: #e5e7eb;
+}
